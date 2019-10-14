@@ -1,0 +1,17 @@
+.post {
+    border-color: red;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.userPanel {
+    border-width: 5px;
+    border-color: grey;
+    text-align: right;
+    padding-right: 5px;
+    padding-top: 3px;
+}
+
+.submitForm {
+    padding: 20px;
+}

@@ -1,0 +1,20 @@
+<html>
+    <head>
+    <title>Sign-Up</title>
+    {% include "header.html" %}
+    
+    </head>
+
+    <body>
+        <div class="submitForm">
+            <form action="/signup" method="POST">
+            <input id="username" type="text" name="name" placeholder="Username"><br>
+            <input id="password" type="text" name="password" placeholder="Password"><br>
+            <input id="password2" type="text" name="password2" placeholder="Confirm Password"><br>
+            <input class="submit" type="submit">
+            </form>
+            <!-- Add client side password validation, as well as server side.
+            Check the password and password2 match on server/client-->
+        </div>
+    </body>
+</html>
